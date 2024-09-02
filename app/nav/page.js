@@ -1,5 +1,6 @@
 import React from 'react';
 import './nav.css';
+ 
 
 const Nav = () => {
   return (
@@ -9,10 +10,10 @@ const Nav = () => {
 
         <nav className="navbar">
           <a href="#home" style={{ "--i": 1 }} className="active">Home</a>
-          <a href="team.html" style={{ "--i": 2 }}>About</a>
+          <a href="/about" style={{ "--i": 2 }}>About</a>
           <a href="#" id="teamLink" style={{ "--i": 3 }}>Team</a>
           <a href="#register" style={{ "--i": 4 }}>Register</a>
-          <a href="#" id="loginButton" style={{ "--i": 5 }}>Login</a>
+          <a href="/login" id="loginButton" style={{ "--i": 5 }}>Login</a>
         </nav>
 
         <div className="social-media">
