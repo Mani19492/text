@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import './about.css';
-
+import Nav from '../nav/page';
 
 const About = () => {
   const nextButtonRef = useRef(null);
@@ -27,7 +27,7 @@ const About = () => {
   return (
     <div>
       
-
+<Nav />
       <section className="home" id="home">
         <video autoPlay muted loop className="bg-video">
           <source src="bg.mp4" type="video/mp4" />

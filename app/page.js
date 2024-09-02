@@ -6,9 +6,9 @@ import About from "./about/page";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <Nav />
       <Hero />
-      <footer />
+      {/* <footer /> */}
       
       
     </div>
