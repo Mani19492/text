@@ -1,0 +1,47 @@
+/* Navigation Bar CSS */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 8%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    animation: slideRight 1s ease forwards;
+    opacity: 1;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(64, 62, 62, 0.588);
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: .3s;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: white;
+}
+
+/* Media Queries for Navigation Bar */
+@media (max-width: 768px) {
+    .navbar {
+        display: none; /* Implement a toggle dropdown for mobile */
+    }
+}
