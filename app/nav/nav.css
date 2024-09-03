@@ -24,7 +24,7 @@
 .navbar a {
     display: inline-block;
     font-size: 18px;
-    color: rgba(64, 62, 62, 0.588);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     margin: 0 10px;
@@ -36,7 +36,7 @@
 
 .navbar a:hover,
 .navbar a.active {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 /* Media Queries for Navigation Bar */

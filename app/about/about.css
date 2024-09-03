@@ -274,3 +274,30 @@ body {
         opacity: 1;
     }
 }
+.about-header {
+    text-align:justify;
+    font-size: 36px;
+    color: white;
+    margin-top: -600px;
+    z-index: 1;
+    padding: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    animation: slideTop 1s ease forwards;
+    opacity: 0;
+}
+
+.header-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.header-container h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    animation: slideTop 1s ease forwards;
+    opacity: 0;
+}
+

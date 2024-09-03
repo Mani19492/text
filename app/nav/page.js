@@ -9,7 +9,7 @@ const Nav = () => {
         <a href="#" className="logo">logo</a>
 
         <nav className="navbar">
-          <a href="#home" style={{ "--i": 1 }} className="active">Home</a>
+          <a href="/hero" style={{ "--i": 1 }} >Home</a>
           <a href="/about" style={{ "--i": 2 }}>About</a>
           <a href="#" id="teamLink" style={{ "--i": 3 }}>Team</a>
           <a href="#register" style={{ "--i": 4 }}>Register</a>
